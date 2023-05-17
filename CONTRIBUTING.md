@@ -25,8 +25,9 @@ Here is a **BAD** example of *manifest-info*:
 }
 ```
 ## Name requirements
-Your name must be from **a** to **z**, contain only lowercase characters. It can also contain these characters: `-_0123456789`.<br>
+1. Your name must be from **a** to **z**, contain only lowercase characters. It can also contain these characters: `-_0123456789`.<br>
 Here is a regex of name requirements: `[a-z0-9_\-]`.
+2. Name mustn't already exist. If name already exists, issue will be declined.
 ## Version requirements
 Regex: `(\d\.){2}\d{1,4}`
 ## Agreement
