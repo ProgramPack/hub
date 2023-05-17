@@ -1,0 +1,9 @@
+{
+    "name": "blank"
+    "description": "Blank ProgramPack file for testing",
+    "author": "vbproger",
+    "version": "1.0.0",
+    "agree": true,
+    "link": "https://github.com/ProgramPack/programpack/raw/experimental/examples/blank.propack",
+    "company": ""
+}
