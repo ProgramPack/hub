@@ -42,4 +42,4 @@ PRs (*Pull Requests*) are not supported now. Only [these pulls](https://github.c
 ### Owner
 Owner also can create issues and accept them by himself.
 # I want to correct something in this repository
-Submit a pull request.
+Send a pull request. It will be reviewed by trusted members.
