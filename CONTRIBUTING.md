@@ -34,7 +34,12 @@ You have to set "`agree`" to `true` if you agree and you want to publish your ap
 ## Identation requirements
 *manifest-info* should have at least 1 tabulation. Identation mustn't change.
 ## Publishing
-Create an issue with the [following format](https://github.com/ProgramPack/hub/blob/main/ISSUE-TEMPLATE). Change the "`[]`" fields to your information. Submit an issue and wait for answer.
+1. Go to [issues](https://github.com/ProgramPack/hub/issues).
+2. Click "New issue":<br>
+!["New Issue" button](https://github.com/ProgramPack/hub/blob/main/.markdown_data/images/contributing_new_issue.png?raw=true)
+3. Select the first template and click "Get started":<br>
+![Application template](https://github.com/ProgramPack/hub/blob/main/.markdown_data/images/contributing_app_template.png?raw=true)
+4. Change the required (and optionally, optional) fields.
 ### Wrong format
 You cannot sumbit your app with wrong format. Issue will be declined.
 ### As PR
