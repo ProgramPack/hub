@@ -5,13 +5,13 @@ Here is an example of good *manifest-info*:
 ```jsonc
 // Good `manifest-info` example
 {
-  "name": "informative_name",                                               // REQUIRED
-  "description": "Here is my great application that I'm ready to publish.", // 
-  "author": "informative_author_name",                                      // 
-  "version": "1.0.0",                                                       // REQUIRED
-  "agree": true,                                                            // REQUIRED
-  "link": "https://...",                                                    // REQUIRED
-  "company": ""                                                             // 
+    "name": "informative_name",                                               // REQUIRED
+    "description": "Here is my great application that I'm ready to publish.", // 
+    "author": "informative_author_name",                                      // 
+    "version": "1.0.0",                                                       // REQUIRED
+    "agree": true,                                                            // REQUIRED
+    "link": "https://...",                                                    // REQUIRED
+    "company": ""                                                             // 
 }
 ```
 Here is a **BAD** example of *manifest-info*:
@@ -19,9 +19,9 @@ Here is a **BAD** example of *manifest-info*:
 // BAD `manifest-info` example
 {
   "name": "AmAZ%*ing.,/\aPPlICAT%!ion"
-  "author": "somebody",
-  "version": "Why would I need a version?",
-  "agree": false
+                    "author": "somebody",
+"version": "Why would I need a version?",    // :D PLEASE aDd my apP:)
+    "agree": false
 }
 ```
 ## Name requirements
@@ -31,5 +31,15 @@ Here is a regex of name requirements: `[a-z0-9_\-]`.
 Regex: `(\d\.){2}\d{1,4}`
 ## Agreement
 You have to set "`agree`" to `true` if you agree and you want to publish your application.
+## Identation requirements
+*manifest-info* should have at least 1 tabulation. Identation mustn't change.
 ## Publishing
-This section is incomplete.
+Create an issue with the [following format](https://github.com/ProgramPack/hub/blob/main/ISSUE-TEMPLATE). Change the "`[]`" fields to your information. Submit an issue and wait for answer.
+### Wrong format
+You cannot sumbit your app with wrong format. Issue will be declined.
+### As PR
+PRs (*Pull Requests*) are not supported now. Only [these pulls](https://github.com/ProgramPack/hub/blob/main/CONTRIBUTING.md#i-want-to-correct-something-in-this-repository) are accepted.
+### Owner
+Owner also can create issues and accept them by himself.
+# I want to correct something in this repository
+Submit a pull request.
