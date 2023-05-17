@@ -6,11 +6,12 @@ Here is an example of good *manifest-info*:
 // Good `manifest-info` example
 {
   "name": "informative_name",                                               // REQUIRED
-  "description": "Here is my great application that I'm ready to publish.", //
-  "author": "informative_author_name",                                      //
+  "description": "Here is my great application that I'm ready to publish.", // 
+  "author": "informative_author_name",                                      // 
   "version": "1.0.0",                                                       // REQUIRED
   "agree": true,                                                            // REQUIRED
-  "link": "https://..."                                                     // REQUIRED
+  "link": "https://...",                                                    // REQUIRED
+  "company": ""                                                             // 
 }
 ```
 Here is a **BAD** example of *manifest-info*:
