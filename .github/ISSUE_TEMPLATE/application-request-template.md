@@ -1,7 +1,7 @@
 ---
 name: Application request template
 about: Request an application
-title: "[APP REQUEST]"
+title: "[APP REQUEST] "
 labels: app request
 assignees: ''
 
